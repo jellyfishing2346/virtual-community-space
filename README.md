@@ -151,12 +151,11 @@ virtual-community-space/
 Below are screenshots demonstrating all required and stretch features:
 
 - **Homepage with Venue Cards**
-  ![Homepage](screenshots/screenshots/screenshot-01.png)
-  ![Homepage](screenshots/screenshots/screenshot-02.png)
+  ![Homepage](screenshots/screenshot-06.png)
 - **Location Detail Page**
-  ![Location Detail](screenshots/screenshot-06.png)
+  ![Location Detail](screenshots/screenshot-07.png)
 - **All Events Page with Countdown Timer**
-  ![All Events](screenshots/screenshot-07.png)
+  ![All Events](screenshots/screenshot-08.png)
 - **Event Countdown Example**
   ![Countdown](screenshots/screenshot-08.png)
 
