@@ -163,14 +163,7 @@ Below are screenshots demonstrating all required and stretch features:
 
 ## 🗂️ Project Diagram
 
-```mermaid
-graph TD;
-  A[Client (React)] -- API Calls --> B[Server (Express.js)]
-  B -- SQL Queries --> C[(PostgreSQL Database)]
-  A -- User Interactions --> A
-  B -- REST Endpoints --> B
-  C -- Stores Events & Locations --> C
-```
+![Diagram](client/screenshots/diagram.png)
 
 - **Client (React):** Handles UI, routing, and API calls
 - **Server (Express.js):** Provides REST API, connects to database
