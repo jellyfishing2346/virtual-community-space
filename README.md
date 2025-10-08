@@ -142,9 +142,42 @@ virtual-community-space/
 
 ## 📱 Demo
 
-![Virtual Community Space Demo](demo.gif)
+![Virtual Community Space Demo](WEB103 Project 3 Submission.gif)
 
 *Add your demo GIF here showing the application in action*
+
+## 📸 Screenshots
+
+Below are screenshots demonstrating all required and stretch features:
+
+- **Homepage with Venue Cards**
+  ![Homepage](screenshots/screenshots/screenshot-01.png)
+  ![Homepage](screenshots/screenshots/screenshot-02.png)
+- **Location Detail Page**
+  ![Location Detail](screenshots/screenshot-06.png)
+- **All Events Page with Countdown Timer**
+  ![All Events](screenshots/screenshot-07.png)
+- **Event Countdown Example**
+  ![Countdown](screenshots/screenshot-08.png)
+
+---
+
+## 🗂️ Project Diagram
+
+```mermaid
+graph TD;
+  A[Client (React)] -- API Calls --> B[Server (Express.js)]
+  B -- SQL Queries --> C[(PostgreSQL Database)]
+  A -- User Interactions --> A
+  B -- REST Endpoints --> B
+  C -- Stores Events & Locations --> C
+```
+
+- **Client (React):** Handles UI, routing, and API calls
+- **Server (Express.js):** Provides REST API, connects to database
+- **Database (PostgreSQL):** Stores locations and events data
+
+---
 
 ## 🤝 Contributing
 

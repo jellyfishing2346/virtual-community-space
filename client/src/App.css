@@ -173,7 +173,12 @@ body {
   font-weight: 400;
 }
 
-
+.filter-label, .sort-label {
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
 
 .back-button {
   display: inline-block;

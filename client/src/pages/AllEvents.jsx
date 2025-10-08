@@ -115,7 +115,7 @@ function AllEvents() {
           flexWrap: 'wrap'
         }}>
           <div>
-            <label style={{ fontWeight: 'bold', marginRight: '0.5rem' }}>Filter by Location:</label>
+            <label style={{ fontWeight: 'bold', marginRight: '0.5rem', color: 'black'}}>Filter by Location:</label>
             <select 
               value={selectedLocation} 
               onChange={(e) => setSelectedLocation(e.target.value)}
@@ -129,7 +129,7 @@ function AllEvents() {
           </div>
           
           <div>
-            <label style={{ fontWeight: 'bold', marginRight: '0.5rem' }}>Sort by:</label>
+            <label style={{ fontWeight: 'bold', marginRight: '0.5rem', color: 'black'}}>Sort by:</label>
             <select 
               value={sortBy} 
               onChange={(e) => setSortBy(e.target.value)}
