@@ -171,6 +171,19 @@ Below are screenshots demonstrating all required and stretch features:
 
 ---
 
+## 🗄️ Database Proof
+
+Below is a screenshot showing the actual PostgreSQL database tables used in this project. This demonstrates the required structured Events and Locations tables with real data.
+
+- **Events Table:**
+  ![Events Table](client/screenshots/events-table.png)
+- **Locations Table:**
+  ![Locations Table](client/screenshots/locations-table.png)
+
+These screenshots were taken from TablePlus, directly connected to the deployed Render PostgreSQL instance.
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repository
