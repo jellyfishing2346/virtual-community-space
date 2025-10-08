@@ -161,6 +161,17 @@ Below are screenshots demonstrating all required and stretch features:
 
 ---
 
+## 🔗 Unique Location URL Proof
+
+Below is a screenshot showing a Location detail page with its unique URL in the browser address bar.
+
+![Location 1 URL](client/screenshots/location-01.png)
+![Location 2 URL](client/screenshots/location-02.png)
+![Location 3 URL](client/screenshots/location-03.png)
+![Location 4 URL](client/screenshots/location-04.png)
+
+---
+
 ## 🗂️ Project Diagram
 
 ![Diagram](client/screenshots/diagram.png)
