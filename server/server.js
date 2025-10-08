@@ -10,6 +10,10 @@ const app = express()
 const PORT = process.env.PORT || 3001
 
 // Middleware
+app.use((req, res, next) => {
+  res.setHeader("Content-Security-Policy", "default-src 'self'; img-src 'self' data: https:;");
+  next();
+});
 app.use(cors())
 app.use(express.json())
 
