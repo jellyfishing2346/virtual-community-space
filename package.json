@@ -1,0 +1,21 @@
+{
+  "name": "virtual-community-space",
+  "version": "1.0.0",
+  "description": "A virtual community space for exploring music events by location",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && nodemon server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && node server.js",
+    "install-deps": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["react", "express", "postgresql", "community", "events"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
