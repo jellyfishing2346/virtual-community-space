@@ -157,7 +157,7 @@ Below are screenshots demonstrating all required and stretch features:
 - **All Events Page with Countdown Timer**
   ![All Events](client/screenshots/screenshot-07.png)
 - **Event Countdown Example**
-  ![Countdown](client/screenshots/screenshot-08.png)
+  ![Countdown](client/screenshots/screenshot-06.png)
 
 ---
 
